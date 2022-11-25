@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <Dogs></Dogs>
+      <button onClick={() => window.location.reload()} className="reload-button"> Actualizar </button>
     </div>
   );
 }
